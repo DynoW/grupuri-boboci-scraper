@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import json
 
-cred = credentials.Certificate('grupuri-boboci.json')
+cred = credentials.Certificate('../auth/grupuri-boboci.json')
 
 app = firebase_admin.initialize_app(cred)
 
