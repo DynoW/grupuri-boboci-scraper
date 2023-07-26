@@ -8,7 +8,7 @@ app = firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
-with open("highschool.json", "r", encoding="utf8") as s:
+with open("grupuri-boboci-scraper/files/highschool.json", "r", encoding="utf8") as s:
     highschools = json.load(s)
 
 for highschool in highschools:
