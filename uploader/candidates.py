@@ -8,7 +8,7 @@ app = firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
-with open("../candidates.json", "r", encoding="utf8") as s:
+with open("../candidate.json", "r", encoding="utf8") as s:
     candidates = json.load(s)
 
 for candidate in candidates:
