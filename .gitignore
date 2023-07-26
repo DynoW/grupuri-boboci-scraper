@@ -6,3 +6,6 @@ venv/
 
 # database secrets
 grupuri-boboci.json
+
+# secret files
+*.secret*

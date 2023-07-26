@@ -8,7 +8,7 @@ app = firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
-with open("specialization.json", "r", encoding="utf8") as s:
+with open("grupuri-boboci-scraper/files/specialization.json", "r", encoding="utf8") as s:
     specializations = json.load(s)
 
 for specialization in specializations:
