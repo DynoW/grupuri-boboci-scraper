@@ -73,7 +73,7 @@ const fs = require('fs');
   await browser.close();
 
   const jsonString = JSON.stringify(data);
-  const filePath = '../../files/candidate.json';
+  const filePath = '../../files/candidate-scraped.json';
 
   fs.writeFile(filePath, jsonString, (err) => {
     if (err) {
